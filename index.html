@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="imagex/png" href="img/logo-bit-coffee.png">
+    <title>Bit Coffee</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#">Bit <span>Coffee</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#shop">Comprar</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+
+        
+    </header>
+
+    <div class="content">
+        <h2>Bit <span class="bit">Coffee</span></h2>
+        <p>Gostaria de começar o dia com um bom café?</p>
+    </div>
+
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <h3>Menu</h3>
+            <h4>bit Coffee Menu</h4>
+        </div>
+        <div class="menu-content">
+            <div class="cafes-quentes">
+                <div class="cafes-quentes-image">
+                    <a href="#shop"><img src="img/cafes-quentes.jpg" alt="Imagem de uma xicara de cafe quente"></a>
+                </div>
+                <div class="cafes-quentes-body">
+                    <h2>Cafés Quentes</h2>
+                    <p>Cafés quentes oferecem uma experiência aconchegante e rica, misturando expresso intenso com leite cremoso e sabores como caramelo ou chocolate.</p>
+                </div>
+            </div>
+            <div class="cafes-gelados">
+                <div class="cafes-gelados-image">
+                    <a href="#shop"><img src="img/cafes-gelados.jpg" alt="Imagem de um copo de cafe expresso geralo cremoso"></a>
+                </div>
+                <div class="cafes-gelados-body">
+                    <h2>Cafés Gelados</h2>
+                    <p>Os cafés gelados são refrescantes e saborosos, combinando expresso com leite frio, gelo e toques doces como baunilha ou chocolate, ideais para dias quentes.</p>
+                </div>
+            </div>
+            <div class="cafe-frappucino">
+                <div class="cafe-frappucino-image">
+                    <a href="#shop"><img src="img/frappuccino.jpg" alt="Imagem de um copo de frappuccino com chantilly"></a>
+                </div>
+                <div class="cafe-frappucino-body">
+                    <h2>Frappucinos</h2>
+                    <p>Frappuccinos são bebidas geladas e cremosas, feitas com café, leite, gelo e sabores como chocolate ou baunilha, geralmente finalizadas com chantilly para um toque extra de doçura.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="shop-container" id="shop">
+        <div class="shop-header">
+            <h3>Shop</h3>
+            <h4>bit Coffee Drinks</h4>
+        </div>
+        <div class="shop-box">
+            <div class="produto" data-name="p-1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/macchiato-caramelo.png" alt="Imagem de um macchiatocom caramelo">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span>( 250 )</span>                        
+                        <p class="valor-produto"><span>R$</span> 15,00</p>
+                        <h3>Caramel Macchiato</h3>
+                        <p>Expresso com leite vaporizado e baunilha, com caramelo para um sabor doce e suave.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-name="p-2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/flat-white.png" alt="Imagem de um expresso com camada fina de leite vaporizado">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>( 250 )</span> 
+                        <p class="valor-produto"><span>R$</span> 15,00</p>
+                        <h3>Flat White</h3>
+                        <p>Expresso suave com uma camada fina de leite vaporizado, saboroso e cremoso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-name="p-3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frappuciono-chocolate.png" alt="Imagem de um frappuccinocde chocolate">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span>( 250 )</span> 
+                        <p class="valor-produto"><span>R$</span> 15,00</p>
+                        <h3>Chocolate Frappucino</h3>
+                        <p>Café gelado com chocolate, leite e gelo, batido e coberto com chantilly e calda de chocolate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-name="p-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frappe.png" alt="Imagem de um copo de cafe gelado com leite">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>( 250 )</span> 
+                        <p class="valor-produto"><span>R$</span> 15,00</p>
+                        <h3>Frappe</h3>
+                        <p>Café gelado com leite, batido até ficar cremoso. com sabores de baunilha ou caramelo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-name="p-5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/cafe-mocha.png" alt="Imagem de um expresso com chocolate e leite vaporizado">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span>( 250 )</span> 
+                        <p class="valor-produto"><span>R$</span> 15,00</p>
+                        <h3>Caffe Mocha</h3>
+                        <p>Expresso com chocolate e leite vaporizado, coberto com chantilly saboroso e doce.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-name="p-6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/frappucino-vanilla.png" alt="Imagem de um frappuccino vanilla">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>( 250 )</span> 
+                        <p class="valor-produto"><span>R$</span> 15,00</p>
+                        <h3>Vanilla Frappucino</h3>
+                        <p>Bebida gelada sem café, com sabor de baunilha, gelo e leite para uma textura suave e doce.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-name="p-7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/mocha-chocolate-branco.png" alt="Imagem de um expresso de mocha chocolate branco">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span>( 250 )</span> 
+                        <p class="valor-produto"><span>R$</span> 15,00</p>
+                        <h3>Mocha Chocolate Branco</h3>
+                        <p>Expresso com leite vaporizado e chocolate branco, coberto com chantilly para uma doçura extra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="produto" data-name="p-8">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/cafe-com-leite-gelado.png" alt="Iamgem de um expresso gelado com leite e gelo">
+                    </div>
+                    <div class="card-body">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>( 250 )</span> 
+                        <p class="valor-produto"><span>R$</span> 15,00</p>
+                        <h3>Ice Latte</h3>
+                        <p>Expresso gelado com leite e gelo, refrescante e ideal para dias quentes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Produtos para visualizar -->
+    <div class="produto-visualizar">
+
+        <div class="visualizar" data-target="p-1">
+           <i class="fas fa-times"></i>
+           <img src="img/macchiato-caramelo.png" alt="">
+           <h3>Caramel Macchiato</h3>
+           <div class="estrelas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Expresso com leite vaporizado e baunilha</p>
+           <div class="preco"><span>R$</span> 15,00</div>
+           <div class="buttons">
+              <a href="#" class="comprar">Comprar Agora</a>
+              <a href="#" class="carrinho">Add ao Carrinho</a>
+           </div>
+        </div>
+     
+        <div class="visualizar" data-target="p-2">
+           <i class="fas fa-times"></i>
+           <img src="img/flat-white.png" alt="">
+           <h3>Flat White</h3>
+           <div class="estrelas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Expresso suave com uma camada fina de leite vaporizado</p>
+           <div class="preco"><span>R$</span> 15,00</div>
+           <div class="buttons">
+              <a href="#" class="comprar">Comprar Agora</a>
+              <a href="#" class="carrinho">Add ao Carrinho</a>
+           </div>
+        </div>
+     
+        <div class="visualizar" data-target="p-3">
+           <i class="fas fa-times"></i>
+           <img src="img/frappuciono-chocolate.png" alt="">
+           <h3>Chocolate Frappuccino</h3>
+           <div class="estrelas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Café com chocolate, leite e gelo, batido e coberto com chantilly e calda de chocolate</p>
+           <div class="preco"><span>R$</span> 15,00</div>
+           <div class="buttons">
+              <a href="#" class="comprar">Comprar Agora</a>
+              <a href="#" class="carrinho">Add ao Carrinho</a>
+           </div>
+        </div>
+     
+        <div class="visualizar" data-target="p-4">
+           <i class="fas fa-times"></i>
+           <img src="img/frappe.png" alt="">
+           <h3>Frappe</h3>
+           <div class="estrelas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Café gelado com leite, com sabores de baunilha ou caramelo.</p>
+           <div class="preco"><span>R$</span> 15,00</div>
+           <div class="buttons">
+              <a href="#" class="comprar">Comprar Agora</a>
+              <a href="#" class="carrinho">Add ao Carrinho</a>
+           </div>
+        </div>
+     
+        <div class="visualizar" data-target="p-5">
+           <i class="fas fa-times"></i>
+           <img src="img/cafe-mocha.png" alt="">
+           <h3>Caffe Mocha</h3>
+           <div class="estrelas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Expresso com chocolate e leite vaporizado, coberto com chantilly.</p>
+           <div class="preco"><span>R$</span> 15,00</div>
+           <div class="buttons">
+              <a href="#" class="comprar">Comprar Agora</a>
+              <a href="#" class="carrinho">Add ao Carrinho</a>
+           </div>
+        </div>
+     
+        <div class="visualizar" data-target="p-6">
+           <i class="fas fa-times"></i>
+           <img src="img/frappucino-vanilla.png" alt="">
+           <h3>Vanilla Frappuccino</h3>
+           <div class="estrelas">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+           </div>
+           <p>Bebida gelada sem café, com sabor de baunilha, gelo e leite.</p>
+           <div class="preco"><span>R$</span> 15,00</div>
+           <div class="buttons">
+              <a href="#" class="comprar">Comprar Agora</a>
+              <a href="#" class="carrinho">Add ao Carrinho</a>
+           </div>
+        </div>
+
+        <div class="visualizar" data-target="p-7">
+            <i class="fas fa-times"></i>
+            <img src="img/mocha-chocolate-branco.png" alt="">
+            <h3>Mocha Chocolate Branco</h3>
+            <div class="estrelas">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Expresso com leite vaporizado e chocolate branco, coberto com chantilly.</p>
+            <div class="preco"><span>R$</span> 15,00</div>
+            <div class="buttons">
+               <a href="#" class="comprar">Comprar Agora</a>
+               <a href="#" class="carrinho">Add ao Carrinho</a>
+            </div>
+         </div>
+
+         <div class="visualizar" data-target="p-8">
+            <i class="fas fa-times"></i>
+            <img src="img/cafe-com-leite-gelado.png" alt="">
+            <h3>Ice Latte</h3>
+            <div class="estrelas">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+               <span>( 250 )</span>
+            </div>
+            <p>Expresso gelado com leite e gelo.</p>
+            <div class="preco"><span>R$</span> 15,00</div>
+            <div class="buttons">
+               <a href="#" class="comprar">Comprar Agora</a>
+               <a href="#" class="carrinho">Add ao Carrinho</a>
+            </div>
+         </div>
+     
+     </div>
+
+    <div class="contact" id="contact">
+        <div class="contact-box">
+            <div class="contact-image">
+                <img src="img/logo-animada.gif">
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="contact-body">
+                <form>
+                    <h2>Contate-nos</h2>
+                    <div class="form-content">
+                        <input type="text" required>
+                        <span></span>
+                        <p>Nome</p>
+                    </div>
+                    <div class="form-content">
+                        <input type="email" required>
+                        <span></span>
+                        <p>Email</p>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <img src="img/bit-coffe-logo-animada.gif" alt="">
+                <p>Copyright &copy; 2024</p>
+            </div>
+            <div class="brand">
+                <p>bit <span>Coffee</span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
